@@ -49,7 +49,7 @@ public class BCC_pagination {
 
 for (int i = 2; i <= 3; i++) {
     WebElement page_Element = driver.findElement(
-        By.xpath("//button[normalize-space()='" + i + "']")
+        By.xpath("//ul[contains(@class,'oxd-pagination__ul')]//button[text()=" + i + "]")
         
     );
      page_Element.click();
