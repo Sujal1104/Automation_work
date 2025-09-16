@@ -100,7 +100,6 @@ public class Calander2{
 
 }
 
- 
 
   List<WebElement> datepick =driver.findElements(By.xpath("//table[@class='ui-datepicker-calendar']//tbody//tr//td"));
   
@@ -112,39 +111,9 @@ public class Calander2{
 
           dt.click();
           break;
-     }
-
-      
+     }      
    }
-           
-           
-           
-
-            
- 
-        
-         
-            
-
-          
-           
-
-
-
-
-
-
-
-         
-         
-         
-
-
-
-
 
      }
-     
-     
      
 }
